@@ -1,0 +1,43 @@
+/* Custom Typography & Japanese Manga Aesthetics for OHOSHI STORE */
+.logo-font {
+  font-family: 'Dela Gothic One', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFDF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D97746;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E52438;
+}
+
+/* Hide scrollbar for category pills on horizontal view */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth Image Gallery Transitions */
+#gallery-main-image {
+  will-change: opacity, transform;
+}
+
+.thumb-btn {
+  user-select: none;
+  -webkit-user-drag: none;
+}
